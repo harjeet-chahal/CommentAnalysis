@@ -1,0 +1,24 @@
+
+paths:
+  train: "data/raw/train.csv"
+  test: "data/raw/test.csv"
+  test_labels: "data/raw/test_labels.csv"
+
+model:
+  name: "bert-base-uncased"
+  num_labels: 6
+
+training:
+  batch_size: 32
+  max_len: 128
+  learning_rate: 2.0e-5
+  epochs: 3
+  seed: 42
+
+labels:
+  - "toxic"
+  - "severe_toxic"
+  - "obscene"
+  - "threat"
+  - "insult"
+  - "identity_hate"

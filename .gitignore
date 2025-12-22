@@ -1,0 +1,14 @@
+# python artifacts
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# virtual environment
+venv/
+
+# heavy data & models (too big for GitHub)
+data/
+models/
+experiments/
+wandb/
