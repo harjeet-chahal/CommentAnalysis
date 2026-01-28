@@ -8,7 +8,7 @@ import os
 
 # --- Page Config ---
 st.set_page_config(
-    page_title="Sentinelp: AI Content Moderation",
+    page_title="CommentAnalysis: AI Content Moderation",
     page_icon="🛡️",
     layout="wide"
 )
@@ -36,7 +36,7 @@ def load_tier3_model():
         return None, None
 
 # --- Main App Interface ---
-st.title("🛡️ Sentinelp: AI Content Moderation System")
+st.title("🛡️ CommentAnalysis: AI Content Moderation System")
 
 # Tabs
 tab1, tab2, tab3 = st.tabs(["Live Scanner", "Model Benchmarks", "Reliability Lab"])

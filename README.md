@@ -1,6 +1,7 @@
-# 🛡️ Sentinelp: AI Content Moderation System
-
-**Sentinelp** is a production-grade AI system designed to detect and classify toxic content in real-time. It features a **3-Tier Model Architecture** to balance the trade-off between latency and accuracy, and includes a comprehensive interactive dashboard for live scanning, benchmarking, and robustness testing.
+# 🛡️ CommentAnalysis: AI Content Moderation System
+## Demo
+YouTube Demo: https://www.youtube.com/watch?v=SrXcQuA-9kw
+**CommentAnalysis** is a production-grade AI system designed to detect and classify toxic content in real-time. It features a **3-Tier Model Architecture** to balance the trade-off between latency and accuracy, and includes a comprehensive interactive dashboard for live scanning, benchmarking, and robustness testing.
 
 ---
 

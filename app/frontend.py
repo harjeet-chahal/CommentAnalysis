@@ -9,13 +9,13 @@ BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000/predict")
 
 # Page Config
 st.set_page_config(
-    page_title="Sentinelp: AI Content Moderation System",
+    page_title="CommentAnalysis: AI Content Moderation System",
     page_icon="🛡️",
     layout="wide"
 )
 
 # Main Title
-st.title("🛡️ Sentinelp: AI Content Moderation System")
+st.title("🛡️ CommentAnalysis: AI Content Moderation System")
 
 # Sidebar - About Section
 st.sidebar.header("About")
@@ -92,7 +92,7 @@ with tab2:
         height=400
     ).interactive()
     
-    st.altair_chart(chart, use_container_width=True)
+    st.altair_chart(chart, width='stretch')
     
     st.info("💡 ** Insight**: RoBERTa offers the highest safety recall (94%) but at 16x higher latency than the baseline. Bi-LSTM offers a balanced middle ground.")
 
